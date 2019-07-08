@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza request</title>
+    <style>
+      p{
+        display: inline-block;
+      }
+
+    </style>
+  </head>
+  <body>
+      <h1>Place an order</h1>
+    <form class="" action="pizza.php" method="post">
+      <div class="">
+        <input type="text" name="large" value="0" placeholder="Enter number of pizzas">
+        <p> large Pizza  X sh. 1000</p>
+      </div>
+      <div class="">
+        <input type="text" name="medium" value="0" placeholder="Enter number of pizzas">
+        <p> medium Pizza  X sh. 700</p>
+      </div>
+
+    <div class="">
+      <h1>Extra toppings</h1>
+      <div class="">
+        <input type="radio" name="toppings" value="meat"><p>Meat toppings (sh 150)</p>
+      </div>
+      <div class="">
+        <input type="radio" name="toppings" value="vegetable"><p>Vegetable toppings (sh 100)</p>
+      </div>
+      <div class="">
+        <input type="radio" name="toppings" value="none"><p>No toppings (sh 0)</p>
+      </div>
+    </div>
+
+    <div class="">
+      <input type="checkbox" name="donate" value="donate">
+      <p>Donate sh. 200 extra?</p>
+    </div>
+
+    <input type="submit" name="BUY" value="BUY">
+    </form>
+  </body>
+</html>

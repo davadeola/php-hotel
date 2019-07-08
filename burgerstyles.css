@@ -1,0 +1,121 @@
+.container-fluid{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.logo-tab img{
+  width: 75%;
+  margin: 5%;
+}
+.back{
+  background-image: url("images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+}
+
+.logo img{
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.content{
+  background-color: #00008b;
+  height: 100vh;
+  width: 50vw;
+  padding-left: 2.5%;
+}
+h1, h3{
+  color: #FFD700;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h3{
+  color: black;
+}
+
+.order{
+  /* background-color: #00008b; */
+}
+p,label{
+  color: white;
+  margin-top: 15px;
+}
+
+.food-des {
+height: 40%;
+margin-top: 10%;
+width: 75%;
+}
+
+
+.food-des img, h3, input{
+  display: block;
+  margin: 0 auto;
+}
+
+.food-des .form-control{
+  width: 50%;
+  border-color: #00008b;
+}
+.food-des img{
+  width: 10em;
+}
+
+.menu{
+  position: fixed;
+  background-color: #00008b;
+  height: 100vh;
+
+  /* width: inherit; */
+}
+
+.menu a{
+  color: white;
+  text-align: center;
+ display: block; /* Make the links appear below each other */
+ padding: 12px; /* Add some padding */
+ text-decoration: none; /* Remove underline from links */
+ width: 17.5em;
+}
+
+
+.table-images{
+  width: 10em;
+  display: block;
+  margin: 0 auto;
+}
+
+tr td{
+  height: 10em;
+}
+th h1{
+  font-size: 2em;
+}
+
+.back-btn{
+  float: right;
+}
+.form-check{
+  padding: 5%;
+}
+.form-check-input {
+  margin-top: 10%;
+}
+
+.sups{
+  margin: 5%;
+}
+
+.upload p, .upload label{
+  color: black;
+}
+
+.upload .form-control{
+  border-color: #00008b;
+}
+
+.results p{
+  color: black;
+}
